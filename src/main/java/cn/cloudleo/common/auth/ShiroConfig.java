@@ -48,7 +48,7 @@ public class ShiroConfig {
         for (String url : urls) {
             filterChain.put(url, "anon");
         }
-        filterChain.put("/**", "user");
+//        filterChain.put("/**", "user");
         filter.setFilterChainDefinitionMap(filterChain);
         return filter;
     }

@@ -2,9 +2,13 @@ server:
   port: 80
   tomcat:
     uri-encoding: utf-8
+knife4j:
+  # 开启增强配置
+  enable: true
+  production: false
 spring:
   profiles:
-    active: prod
+    active: dev
   #thymeleaf模板引擎
   thymeleaf:
     cache: false
