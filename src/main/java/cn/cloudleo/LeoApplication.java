@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LeoApplication {
 
     public static void main(String[] args) {
+        //测试
         SpringApplication.run(LeoApplication.class, args);
     }
 }
